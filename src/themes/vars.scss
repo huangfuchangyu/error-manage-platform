@@ -1,0 +1,23 @@
+// --------------------------------------------------
+//
+// Variables
+//
+// --------------------------------------------------
+
+// Colors
+// --------------------------------------------------
+$color-primary: #409eff;
+$color-danger: #f56c6c;
+$color-warning: #e6a23c;
+$color-disabled: #909399;
+
+$color-primary-active: darken($color-primary, 10%);
+$color-danger-active: darken($color-danger, 10%);
+$color-warning-active: darken($color-warning, 10%);
+$color-disabled-active: darken($color-disabled, 10%);
+
+// index level
+// --------------------------------------------------
+$z-index-low: 9;
+$z-index-medium: 99;
+$z-index-high: 999;

@@ -1,29 +1,21 @@
+/*
+ * Desc: root component
+ * File Created: Tuesday, 25th February 2020 2:36:06 pm
+ * Author: huangfuchangyu (changyu.huangfu@tcl.com)
+ */
+
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <Home />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Home from "./pages/Home";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    Home
   }
 };
 </script>
 
-<style rel="stylesheet/scss" lang="scss">
-$red: red;
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  margin-top: 160px;
-  color: $red;
-}
-</style>
