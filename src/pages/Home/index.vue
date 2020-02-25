@@ -8,7 +8,7 @@
   <div>
     <Header />
     <Menu />
-    <section class="main-content">content</section>
+    <section class="main-content">content   <el-button type="success">成功按钮</el-button></section>
   </div>
 </template>
 
