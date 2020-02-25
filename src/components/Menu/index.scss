@@ -1,0 +1,7 @@
+@import "../../themes/index.scss";
+
+.menu-layout {
+  @include menu-layout();
+
+  background-color: aquamarine;
+}

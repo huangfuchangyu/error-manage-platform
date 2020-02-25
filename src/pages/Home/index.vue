@@ -5,12 +5,23 @@
  */
 
 <template>
-  <div>1111</div>
+  <div>
+    <Header />
+    <Menu />
+    <section class="main-content">content</section>
+  </div>
 </template>
 
 <script>
+import Header from "../../components/Header";
+import Menu from "../../components/Menu";
+
 export default {
-  name: "Home"
+  name: "Home",
+  components: {
+    Header,
+    Menu
+  }
 };
 </script>
 

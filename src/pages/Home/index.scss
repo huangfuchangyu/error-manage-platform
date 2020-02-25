@@ -1,0 +1,6 @@
+@import "../../themes/index.scss";
+
+.main-content {
+  @include content-layout();
+  background-color: rgb(133, 243, 243);
+}

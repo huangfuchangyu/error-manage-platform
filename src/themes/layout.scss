@@ -1,0 +1,44 @@
+// page  layout
+// --------------------------------------------------
+
+// header height
+$headerHeight: 60px;
+
+// menu width
+$menuWidth: 200px;
+
+.base-layout {
+  position: absolute;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+// 顶部 header 布局
+@mixin header-layout {
+  @extend .base-layout;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  height: $headerHeight;
+}
+
+// 左侧 menu 布局
+@mixin menu-layout {
+  @extend .base-layout;
+
+  top: $headerHeight;
+  left: 0;
+  bottom: 0;
+  width: $menuWidth;
+}
+
+// 右侧 内容 布局
+@mixin content-layout {
+  @extend .base-layout;
+
+  top: $headerHeight;
+  left: $menuWidth;
+  bottom: 0;
+  right: 0;
+}

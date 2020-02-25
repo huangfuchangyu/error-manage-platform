@@ -1,0 +1,7 @@
+@import "../../themes/index.scss";
+
+.header-layout {
+  @include header-layout();
+
+  background-color: antiquewhite;
+}
